@@ -9,3 +9,11 @@ AllCops:
    - 'db/**/*'
    - 'config/**/*'
    - 'script/**/*'
+   - 'spec/rails_helper.rb'
+   - 'spec/spec_helper.rb'
+
+Documentation:
+ Enabled: false
+
+Layout/LineLength:
+  Max: 140
