@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:12-alpine
+    volumes:
+      - database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${PG_DATABASE}
+      - POSTGRES_USER=${PG_USERNAME}
+      - POSTGRES_PASSWORD=${PG_PASSWORD}
+  web:
+    build: .
+    command: "bundle exec rails s -p 3000 -b '0.0.0.0'"
+    env_file:
+      - .env
+    volumes:
+      - .:/www/api_service
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+volumes:
+  database:
+  
