@@ -27,7 +27,7 @@ Inicie o projeto executando:
 
 Crie o banco de dados executando:
 
-`docker-compose run web rails db:create db:migrate`
+`docker-compose exec web rails db:create db:migrate`
 
 Nice! 
 
