@@ -1,0 +1,11 @@
+require:
+  - rubocop
+
+AllCops:
+ TargetRubyVersion: 3.0.3
+ Exclude:
+   - 'bin/**/*'
+   - 'vendor/**/*'
+   - 'db/**/*'
+   - 'config/**/*'
+   - 'script/**/*'
