@@ -10,7 +10,7 @@ RSpec.describe 'users', type: :request do
 
     context 'With authentication' do
       before do
-        get api_v1_users_path #, headers: authentication_headers
+        get api_v1_users_path # , headers: authentication_headers
       end
 
       it 'Should return status ok' do
@@ -48,8 +48,7 @@ RSpec.describe 'users', type: :request do
             'name' => 'Ana',
             'email' => 'ana@teste.com',
             'password' => '123456'
-          }
-        }
+          } }
       end
       it 'Should return status ok' do
         expect(response).to have_http_status(:created)
@@ -83,5 +82,4 @@ RSpec.describe 'users', type: :request do
     it 'update user status 401' do
     end
   end
-
 end
