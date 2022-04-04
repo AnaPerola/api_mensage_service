@@ -6,6 +6,19 @@ Criar um chat em real time para solucionar o problema de troca de mensagens inte
 
 #
 
+### 💬 About o chat em tempo real 
+
+O chat foi criado em real time usando Action Cable que integra WebSockets com o resto da aplicação. Permitindo que recursos em tempo real sejam escritos em Ruby, possuindo desempenho e escabilidade.
+
+- Foi criado um canal para a troca de mensagens `chat_messages_channel.rb`
+- Foi criado um model `Message` para as mensagens.
+- Foi criado uma rota para a troca de mensagens.
+- Configurado url de action cable em `env=development`
+- Criado dados Fictícios no rails console para realizar o testes.
+
+# 
+
+
 ### 💻 Tecnologias:
 
 [X] Rails 
@@ -25,17 +38,6 @@ Criar um chat em real time para solucionar o problema de troca de mensagens inte
 [X] Cancancan - Para construir o sistema de autorização para usuários
 
 [X] Rspec-rails - Para construir o sistema de testes
-
-#
-
-### 💬 O Chat em tempo real 
-
-Chat criado em real time usando Action Cable (WebSockets).
-- Foi criado um canal para a troca de mensagens `chat_messages_channel.rb`
-- Foi criado um model `Message` para as mensagens.
-- Foi criado uma rota para a troca de mensagens.
-- Configurado url de action cable em `env=development`
-- Criado dados Fictícios no rails console para realizar o testes.
 
 #
 
