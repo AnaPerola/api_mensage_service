@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe 'sessions', type: :request do
@@ -9,8 +11,7 @@ RSpec.describe 'sessions', type: :request do
         {
           'email' => 'ana@teste.com',
           'password' => '123456'
-        }
-      }
+        } }
     end
 
     it 'Sessao iniciada status created 201' do
