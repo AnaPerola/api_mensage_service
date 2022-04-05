@@ -66,7 +66,7 @@ module Api
       end
 
       def user_update_params
-        params.require(:user).permit(:name, :email, :password, :role)
+        params.require(:user).permit(:name, :email, :password, :role, :status)
       end
 
       def set_user
