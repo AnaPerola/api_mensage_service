@@ -8,7 +8,7 @@ class Ability
     #
     user ||= User.new # guest user (not logged in)
     if user.admin?
-      can %i[read destroy], :all
+      can %i[read destroy update], :all
     else
       can :read, :all
     end

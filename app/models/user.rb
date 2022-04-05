@@ -9,4 +9,5 @@ class User < ApplicationRecord
   validates :password, length: { minimum: 6 }, if: -> { new_record? || !password.nil? }
 
   enum role: { commom: 0, admin: 1 }
+  enum status: { active: 0, inactive: 1 }
 end

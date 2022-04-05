@@ -41,6 +41,26 @@ O chat foi criado em real time usando Action Cable que integra WebSockets com o 
 
 #
 
+### 💬 O Chat em tempo real 
+
+Chat criado em real time usando Action Cable (WebSockets).
+- Foi criado um canal para a troca de mensagens `chat_messages_channel.rb`
+- Foi criado um model `Message` para as mensagens.
+- Foi criado uma rota para a troca de mensagens.
+- Configurado url de action cable em `env=development`
+- Criado dados Fictícios no rails console para realizar o testes.
+
+#
+
+### Regras das roles 
+
+- Usuário Comum pode:
+Visualizar lista de usuarios; Criar novo usuario
+
+- Usuário Administrador pode: Visualizar lista de usuarios; Criar, alterar e excluir usuários;
+
+#
+
 ### 🏁 Como iniciar o projeto:
 
 Crie um arquivo `.env` e inclua suas variaveis de ambiente.
