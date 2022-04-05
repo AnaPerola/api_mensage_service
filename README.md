@@ -39,6 +39,15 @@ Chat criado em real time usando Action Cable (WebSockets).
 
 #
 
+### Regras das roles 
+
+- Usuário Comum pode:
+Visualizar lista de usuarios; Criar novo usuario
+
+- Usuário Administrador pode: Visualizar lista de usuarios; Criar, alterar e excluir usuários;
+
+#
+
 ### 🏁 Como iniciar o projeto:
 
 Crie um arquivo `.env` e inclua suas variaveis de ambiente.
