@@ -21,23 +21,20 @@ O chat foi criado em real time usando Action Cable que integra WebSockets com o 
 
 ### 💻 Tecnologias:
 
-[X] Rails 
-
-[X] Dockerfile
-
-[X] Docker-compose
-
-[X] Postgres
+- [ ] Rails 
+- [ ] Dockerfile
+- [ ] Docker-compose
+- [ ] Postgres
 
 #
 
 ### ✨ Gems de destaque do projeto:
 
-[X] JWT - Para construir o sistema de autentificação para usuários
+- [ ] JWT - Para construir o sistema de autentificação para usuários
 
-[X] Cancancan - Para construir o sistema de autorização para usuários
+- [ ] Cancancan - Para construir o sistema de autorização para usuários
 
-[X] Rspec-rails - Para construir o sistema de testes
+- [ ] Rspec-rails - Para construir o sistema de testes
 
 #
 
